@@ -1,3 +1,8 @@
-# Voting-System
+********************************************
+
+           Voting-System
+           
 
 For educational purposes only. Thanks!
+
+********************************************
