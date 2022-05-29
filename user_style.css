@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+body{
+	margin: 20;
+  	padding: 0;
+  	background: linear-gradient(120deg, #939FAE, #2E2A32);
+  	font-family: "Poppins", sans-serif;
+	height: 100vh;
+	overflow: hidden;
+}
+.logout ul{
+	list-style:none;
+	padding: 0;
+	margin: 20;
+	text-align: right;
+}
+.logout li{
+	display: inline-block;
+	background: #2E2A32
+}
+.logout a{
+	text-decoration: none;
+	color: #fff;
+	width: 100px;
+	display: block;
+	padding: 20px;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+}
+.logout a:hover{
+	background: #6B6165;
+}
