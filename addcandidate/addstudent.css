@@ -2,14 +2,14 @@
 body{
 	margin: 20;
   	padding: 0;
-  	background: linear-gradient(120deg, #939FAE, #2E2A32);
+  	background: linear-gradient(#f0d4d6,#e49a9d,#c84d52,#b61a27);
   	font-family: "Poppins", sans-serif;
 	height: 100vh;
 	overflow: hidden;
 }
 .navbar ul{
 	list-style:none;
-	background: #2E2A32;
+	background: linear-gradient(#c84d52,#8b2d2e);
 	padding: 0;
 	margin: 20;
 	text-align: right;
@@ -29,7 +29,9 @@ body{
 	text-align: center;
 }
 .navbar a:hover{
-	background: #6B6165;
+	background: #c84d52;
+	text-decoration: none;
+	color: white;
 }
 .printer ul{
 	list-style:none;

@@ -15,7 +15,7 @@ body{
 }
 .logout li{
 	display: inline-block;
-	background: #2E2A32
+	background: #2E2A32;
 }
 .logout a{
 	text-decoration: none;

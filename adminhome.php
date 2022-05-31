@@ -26,6 +26,11 @@
 			<ul>
 				<li><a href = "#">Print</a></li>
 					<h1><center>2022 Student Election</center></h1>
+					<style>
+						h1{
+							color: white;
+						}
+					</style>
 			
 			</ul>
 		</div>

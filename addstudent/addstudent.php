@@ -7,7 +7,11 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body><style>
+	body{
+		font-family: 'Poppins';
+	}
+</style>
 			<div class = "navbar">
 			<ul>
 				<li><a href = "../adminhome.php">Home</a></li>
@@ -18,11 +22,11 @@
 		</div>	
 <div class="container">
 	<div style="height:50px;"></div>
-	<div class="well" style="margin:auto; padding:auto; width:80%;">
-	<span style="font-size:25px; color:black"><center><strong>Register Student</strong></center></span>	
+	<div class="well" style="border-color:#543438; margin:auto; padding:auto; width:80%; background-color: #543438; box-shadow: 5px 10px 18px black;">
+	<span style="font-size:25px; color:white"><center><strong>Register Student</strong></center></span>	
 		<span class="pull-left"><a href="#addnew" data-toggle="modal" class="btn btn-primary"><span class="glyphicon glyphicon-plus"></span> Add New</a></span>
 		<div style="height:50px;"></div>
-		<table class="table table-striped table-bordered table-hover">
+		<table class="table table-striped table-bordered"style="background-color: white;">
 			<thead>
 				<th>TUP-ID</th>
 				<th>Password</th>

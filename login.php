@@ -52,14 +52,26 @@
 
 <html lang="en" dir="ltr">
   <head>
+	  
     <meta charset="utf-8">
     <title>Voting System</title>
     <link rel="stylesheet" href="login_style.css">
   </head>
-  
+  <h2>TUP Manila Voting System</h2>
   <body>
     <div class="center">
-      <h1>Login</h1>
+      <h1>User Authentication</h1>
+	  <style>
+		  h1{
+			  color: white;
+			  font-size: 20px;
+		  }
+		  h2{
+			  text-align: center;
+			  padding-top: 75px;
+			  font-weight: bolder;
+		  }
+	  </style>
       	<form action="#" method="POST">
 		
         <div class="txt_field">
@@ -74,7 +86,7 @@
           <label>Password</label>
         </div>
 		<div>
-			<input type="submit" value="Login">
+			<input type="submit" value="Log in">
 		</div>
 		<br><br>
       </form>

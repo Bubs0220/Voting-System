@@ -2,14 +2,14 @@
 body{
 	margin: 0;
   	padding: 0;
-  	background: linear-gradient(120deg, #939FAE, #2E2A32);
+  	background: linear-gradient(#f0d4d6,#e49a9d,#c84d52,#b61a27);
   	font-family: "Poppins", sans-serif;
 	height: 100vh;
 	overflow: hidden;
 }
 .navbar ul{
 	list-style:none;
-	background: #2E2A32;
+	background: linear-gradient(#c84d52,#8b2d2e);
 	padding: 0;
 	margin: 0;
 	text-align: right;
@@ -29,7 +29,7 @@ body{
 	text-align: center;
 }
 .navbar a:hover{
-	background: #6B6165;
+	background: #c84d52;
 }
 .printer ul{
 	list-style:none;
@@ -39,7 +39,11 @@ body{
 }
 .printer li{
 	display: inline-block;
-	background: #2E2A32
+	margin: 20px;
+	background: #b61a27;
+	border-radius: 2px;
+	border: 1px solid;
+	border-color: white;
 }
 .printer a{
 	text-decoration: none;
@@ -53,5 +57,6 @@ body{
 	text-align: center;
 }
 .printer a:hover{
-	background: #6B6165;
+	background: #c84d52;
+	border-radius: 2px;
 }
