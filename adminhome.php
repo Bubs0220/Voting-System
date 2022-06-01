@@ -24,15 +24,16 @@
 		</div>	
 		<div class = "printer">
 			<ul>
-				<li><a href = "#">Print</a></li>
-					<h1><center>2022 Student Election</center></h1>
-					<style>
-						h1{
-							color: white;
-						}
-					</style>
-			
+				<li><form method="post" action="print.php">
+     				<input type="submit" name="export" class="btn btn-success" value="DOWNLOAD" />
+				</li>			
 			</ul>
 		</div>
+		<h1><center>2022 Student Election</center></h1>
+			<style>
+				h1{
+					color: white;
+				}
+			</style>
 	</body>
 </html>
