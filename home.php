@@ -9,16 +9,22 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ABeeZee&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anton&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arbutus&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo+Black&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Autour+One&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bevan&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Black+Han+Sans&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Black+Ops+One&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
 </head>
 
 <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="54" style="color: rgb(33, 37, 41);">
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark" id="mainNav">
         <div class="container"><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive"><a class="navbar-brand" href="#page-top" style="color: var(--bs-red);font-family: 'Archivo Black', sans-serif;">VS-TUP</a>
+            <div class="collapse navbar-collapse" id="navbarResponsive"><a class="navbar-brand" href="#page-top" style="color: var(--bs-gray-200);font-family: 'Archivo Black', sans-serif;"></a>
                 <ul class="navbar-nav ms-auto text-uppercase">
                     <li class="nav-item"></li>
                     <li class="nav-item"></li>
@@ -32,13 +38,11 @@
     <header class="masthead" style="background-image: url('assets/img/header-bg.jpg');height: 1132px;">
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in" style="font-size: 50px;"><span style="font-size: 107px;font-family: ABeeZee, sans-serif;margin: 0px;text-shadow: 6px -1px 0px var(--bs-gray-900);font-weight: bold;color: var(--bs-red);">VOTING SYSTEM</span></div>
-                <div class="intro-heading text-uppercase" style="color: var(--bs-white);font-size: 78px;margin: 103px;">
-                <span style="font-size: 60px;text-shadow: 6px 0px var(--bs-body-color);color: var(--bs-body-bg);">
-                in technological university of the philippines</span>
+                <div class="intro-lead-in" style="font-size: 50px;"><span style="font-size: 118px;font-family: Audiowide, serif;margin: 0px;text-shadow: 6px -1px 0px var(--bs-gray-900);font-weight: bold;color: var(--bs-red);">VOTING SYSTEM</span></div>
+                <div class="intro-heading text-uppercase" style="color: var(--bs-white);font-size: 71px;margin: 103px;">
+                <span style="font-size: 60px;text-shadow: 6px 0px var(--bs-body-color);color: var(--bs-body-bg);">IN MANILA</span>
             </div>
-            <a class="btn btn-primary btn-xl text-uppercase" role="button" href="login.php" style="background: #633330;color: var(--bs-white);margin: 16px;">
-                login</a>
+            <a class="btn btn-primary btn-xl text-uppercase" role="button" href="login.php" style="background: #633330;color: var(--bs-white);margin: 16px;">login</a>
             </div>
         </div>
     </header>
@@ -145,6 +149,15 @@
                                 <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li class="list-inline-item"></li>
                             </ul>
+                            <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/team/mhica.jpg" style="margin: 127px;padding: -26px;">
+                                <h4 style="margin: -92px 0px 0px;">Mhica Ella Cadiz</h4>
+                                <p class="text-muted">Researcher</p>
+                                <ul class="list-inline social-buttons">
+                                    <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li class="list-inline-item"></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <div class="col-sm-4">
@@ -180,10 +193,7 @@
                                 <div class="form-group mb-3"><input class="form-control" type="tel" placeholder="Your Phone *" required=""><small class="form-text text-danger help-block lead"></small></div>
                             </div>
                             <div class="col-md-6">
-                                <div class="form-group mb-3"><textarea class="form-control" id="message" placeholder="Your Message *" required="">
-
-                                </textarea>
-                                <small class="form-text text-danger help-block lead"></small></div>
+                                <div class="form-group mb-3"><textarea class="form-control" id="message" placeholder="Your Message *" required=""></textarea><small class="form-text text-danger help-block lead"></small></div>
                             </div>
                             <div class="w-100"></div>
                             <div class="col-lg-12 text-center">
