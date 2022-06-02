@@ -51,7 +51,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="text-uppercase section-heading">Portfolio</h2>
-                    <h3 class="text-muted section-subheading">Images from Technological University of the Philippines</h3>
+                    <h3 class="text-muted section-subheading">Images from the University</h3>
                 </div>
             </div>
             <div class="row">
