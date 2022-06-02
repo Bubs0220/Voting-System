@@ -19,8 +19,12 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Black+Han+Sans&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Black+Ops+One&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+<<<<<<< HEAD
     <link rel="stylesheet" href="home.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+=======
+    <link rel="stylesheet" href="assets/css/divider-text-middle.css">
+>>>>>>> deb4b4d3ec64fb11d5ed12bf1894dee806a68446
 </head>
 
 <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="54" style="color: rgb(33, 37, 41);">
@@ -39,6 +43,7 @@
     </nav>
     <header class="masthead" style="background-image: url('assets/img/BG.png');height: 1132px;">
         <div class="container">
+<<<<<<< HEAD
             <div class="intro-text"style="position: relative">
                 <div class="intro-lead-in" style="font-size: 50px;"><span style="font-size: 118px;margin: 0px;text-shadow: 6px -1px 0px var(--bs-gray-900);font-weight: bold;color: var(--bs-red);">VOTING SYSTEM</span></div>
                 <div class="intro-heading text-uppercase" style="color: var(--bs-white);font-size: 71px;margin: 103px;">
@@ -46,6 +51,11 @@
             </div>
             
             <a class="btn btn-primary btn-xl text-uppercase" role="button" href="login.php" style="background: #b61a27;color: var(--bs-white);margin: 16px;">Log in</a>
+=======
+            <div class="intro-text">
+                <div class="intro-lead-in" style="font-size: 50px;"><span style="font-size: 118px;font-family: Audiowide, serif;margin: 0px;text-shadow: 6px -1px 0px var(--bs-gray-900);font-weight: bold;color: var(--bs-red);">VOTING SYSTEM</span></div>
+                <div class="intro-heading text-uppercase" style="color: var(--bs-white);font-size: 71px;margin: 103px;"><span style="font-size: 60px;text-shadow: 6px 0px var(--bs-body-color);color: var(--bs-body-bg);">IN MANILA</span></div><a class="btn btn-primary btn-xl text-uppercase" role="button" href="login.php" style="background: #633330;color: var(--bs-white);margin: 16px;">login</a>
+>>>>>>> deb4b4d3ec64fb11d5ed12bf1894dee806a68446
             </div>
         </div>
     </header>
@@ -54,7 +64,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="text-uppercase section-heading">Portfolio</h2>
-                    <h3 class="text-muted section-subheading">Images from the University</h3>
+                    <h3 class="text-muted section-subheading">Images from Technological University of the Philippines</h3>
                 </div>
             </div>
             <div class="row">
@@ -89,6 +99,9 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div style="text-align:center;">
+            <h2 class="divider-style"><span>DEVELOPERS</span></h2>
         </div>
     </section>
     <section class="bg" id="team" style="background: linear-gradient(#c84d52,#e49a9d,#b61a27,#543438);">
@@ -183,7 +196,11 @@
             </div>
         </section>
     </section>
+<<<<<<< HEAD
     <section id="contact" style="background: #543438;">
+=======
+    <section id="contact" style="background-image: url('map-image.png');">
+>>>>>>> deb4b4d3ec64fb11d5ed12bf1894dee806a68446
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -234,6 +251,7 @@
             </div>
         </div>
     </footer>
+
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/agency.js"></script>
 </body>
