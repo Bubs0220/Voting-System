@@ -19,34 +19,37 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Black+Han+Sans&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Black+Ops+One&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="home.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 </head>
 
 <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="54" style="color: rgb(33, 37, 41);">
-    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark" id="mainNav">
+    <nav class="navbar navbar-expand fixed-top bg" id="mainNav" style="background: #543438">
         <div class="container"><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive"><a class="navbar-brand" href="#page-top" style="color: var(--bs-gray-200);font-family: 'Archivo Black', sans-serif;"></a>
                 <ul class="navbar-nav ms-auto text-uppercase">
                     <li class="nav-item"></li>
                     <li class="nav-item"></li>
                     <li class="nav-item"></li>
-                    <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#team" style="font-weight: bold;">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact"style="font-weight: bold;">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <header class="masthead" style="background-image: url('assets/img/header-bg.jpg');height: 1132px;">
+    <header class="masthead" style="background-image: url('assets/img/BG.png');height: 1132px;">
         <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in" style="font-size: 50px;"><span style="font-size: 118px;font-family: Audiowide, serif;margin: 0px;text-shadow: 6px -1px 0px var(--bs-gray-900);font-weight: bold;color: var(--bs-red);">VOTING SYSTEM</span></div>
+            <div class="intro-text"style="position: relative">
+                <div class="intro-lead-in" style="font-size: 50px;"><span style="font-size: 118px;margin: 0px;text-shadow: 6px -1px 0px var(--bs-gray-900);font-weight: bold;color: var(--bs-red);">VOTING SYSTEM</span></div>
                 <div class="intro-heading text-uppercase" style="color: var(--bs-white);font-size: 71px;margin: 103px;">
-                <span style="font-size: 60px;text-shadow: 6px 0px var(--bs-body-color);color: var(--bs-body-bg);">IN MANILA</span>
+                <span style="font-size: 60px;text-shadow: 6px 0px var(--bs-body-color);color: var(--bs-body-bg);">IN TUP MANILA</span>
             </div>
-            <a class="btn btn-primary btn-xl text-uppercase" role="button" href="login.php" style="background: #633330;color: var(--bs-white);margin: 16px;">login</a>
+            
+            <a class="btn btn-primary btn-xl text-uppercase" role="button" href="login.php" style="background: #b61a27;color: var(--bs-white);margin: 16px;">Log in</a>
             </div>
         </div>
     </header>
-    <section class="bg-light" id="portfolio" style="height: 1694.44px;">
+    <section class="bg" id="portfolio" style="height: 1694.44px; background: linear-gradient(#f0d4d6,#e49a9d,#c84d52);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -88,13 +91,13 @@
             </div>
         </div>
     </section>
-    <section class="bg-light" id="team" style="background: var(--bs-pink);">
-        <div class="container">
+    <section class="bg" id="team" style="background: linear-gradient(#c84d52,#e49a9d,#b61a27,#543438);">
+        
             <div class="row">
                 <div class="col-sm-4">
                     <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/team/archie.jpg">
                         <h4>Archie Dantes</h4>
-                        <p class="text-muted">Developer</p>
+                        <p class=>Developer</p>
                         <ul class="list-inline social-buttons">
                             <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
                             <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -105,7 +108,13 @@
                 <div class="col-sm-4">
                     <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/team/ching.jpg">
                         <h4>Caryl Mickyle Ching</h4>
-                        <p class="text-muted">Developer</p>
+                        <p class= >Developer</p>
+                        <style>
+                            p{
+                                color: black;
+                                font-weight: ;
+                            }
+                        </style>
                         <ul class="list-inline social-buttons">
                             <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
                             <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -116,7 +125,7 @@
                 <div class="col-sm-4">
                     <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/team/kervin.jpg">
                         <h4>Kervin Evangelista</h4>
-                        <p class="text-muted">Developer</p>
+                        <p class=>Developer</p>
                         <ul class="list-inline social-buttons">
                             <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
                             <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -126,13 +135,12 @@
                 </div>
             </div>
         </div>
-        <section class="bg-light" id="team-1">
-            <div class="container">
+        <section class= id="team-1" style="background: linear-gradient(#e49a9d,#c84d52,#b61a27);">
                 <div class="row">
                     <div class="col-sm-4">
                         <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/team/gangay.jpg">
                             <h4>Angela Gangay</h4>
-                            <p class="text-muted">UI Designer</p>
+                            <p class=>UI Designer</p>
                             <ul class="list-inline social-buttons">
                                 <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
                                 <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -143,7 +151,7 @@
                     <div class="col-sm-4">
                         <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/team/cha.jpg">
                             <h4>Charlotte Gimena</h4>
-                            <p class="text-muted">UI Designer</p>
+                            <p class=>UI Designer</p>
                             <ul class="list-inline social-buttons">
                                 <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
                                 <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -151,7 +159,7 @@
                             </ul>
                             <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/team/mhica.jpg" style="margin: 127px;padding: -26px;">
                                 <h4 style="margin: -92px 0px 0px;">Mhica Ella Cadiz</h4>
-                                <p class="text-muted">Researcher</p>
+                                <p class=>Researcher</p>
                                 <ul class="list-inline social-buttons">
                                     <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
                                     <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -163,7 +171,7 @@
                     <div class="col-sm-4">
                         <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/team/jas.jpg">
                             <h4>Jasmhine Modrigo</h4>
-                            <p class="text-muted">UI Designer</p>
+                            <p class=>UI Designer</p>
                             <ul class="list-inline social-buttons">
                                 <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
                                 <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -175,7 +183,7 @@
             </div>
         </section>
     </section>
-    <section id="contact" style="background-image: url('assets/img/map-image.png');">
+    <section id="contact" style="background: #543438;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -207,6 +215,7 @@
     </section>
     <footer>
         <div class="container">
+            
             <div class="row">
                 <div class="col-md-4"><span class="copyright">Voting System 2022</span></div>
                 <div class="col-md-4">
