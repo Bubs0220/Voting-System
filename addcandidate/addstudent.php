@@ -35,6 +35,7 @@
 						font-family: 'Poppins';
 					}
 				</style>
+				<th>Photo</th>
 				<th>Name</th>
 				<th>Position</th>
 				<th>Course</th>
@@ -48,9 +49,11 @@
 				while($row=mysqli_fetch_array($query)){
 					?>
 					<tr>
+						<td><img src="data:photo/jpg;charset=utf8;base64,<?php echo base64_encode($row['photo']); ?>" width="80" height="80"/></td>
 						<td><?php echo ucwords($row['name']); ?></td>
 						<td><?php echo ucwords($row['position']); ?></td>
 						<td><?php echo $row['course']; ?></td>
+
 						<td>
 							<a href="#edit<?php echo $row['userid']; ?>" data-toggle="modal" class="btn btn-warning"><span class="glyphicon glyphicon-edit"></span> Edit</a> &nbsp;
 							<a href="#del<?php echo $row['userid']; ?>" data-toggle="modal" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> Delete</a>

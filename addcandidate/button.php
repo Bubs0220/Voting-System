@@ -42,10 +42,19 @@
 				<form method="POST" action="edit.php?id=<?php echo $erow['userid']; ?>">
 					<div class="row">
 						<div class="col-lg-2">
+							<label style="position:relative; top:7px;">Photo:</label>
+						</div>
+						<div class="col-lg-10">
+							<input input type="file" name="photo" value="<?php echo $erow['photo']; ?>">
+						</div>
+					</div>
+					<div style="height:10px;"></div>
+					<div class="row">
+						<div class="col-lg-2">
 							<label style="position:relative; top:7px;">Name:</label>
 						</div>
 						<div class="col-lg-10">
-							<input type="text" name="name" class="form-control" value="<?php echo $erow['name']; ?>">
+							<input type="text" name="name" value="<?php echo $erow['name']; ?>">
 						</div>
 					</div>
 					<div style="height:10px;"></div>
