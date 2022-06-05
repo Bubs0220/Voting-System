@@ -31,8 +31,29 @@ body{
 .navbar a:hover{
 	background: #c84d52;
 }
-
-.btn {
-	color: #FA8072;
-	 order-color: #FA8072 
+.printer ul{
+	list-style:none;
+	padding: 0;
+	margin: 0;
+	text-align: right;
+}
+.printer li{
+	display: inline-block;
+}
+.printer button {
+	background: linear-gradient(#c84d52,#8b2d2e);
+ 	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: right;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+.printer button:hover{
+	background: #c84d52;
 }

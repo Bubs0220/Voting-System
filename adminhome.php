@@ -22,10 +22,13 @@
 				<li><a href="logout.php">Logout</a></li>
 			</ul>
 		</div>	
-		
-		<form method="post" action="print.php">
-		  	<button type="submit" name="export" class="btn btn-primary">Download</button>
-		</form>
+		<div class = "printer">
+			<ul>
+				<li><form method="post" action="print.php">
+		  			<button type="submit" name="export" class="button">Download</button>
+				</form></li>
+			</ul>
+		</div>
 
 		<h1><center>2022 Student Election</center></h1>
 			<style>
