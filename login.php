@@ -29,7 +29,7 @@
 
 			$_SESSION["username"]=$username;
 
-			header("location:userhome.php");
+			header("location:voting/index.php");
 		}
 
 		elseif($row["usertype"]=="admin")
