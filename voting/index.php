@@ -1,6 +1,8 @@
 <?php
+
 include ('database_connection.php');
 ?>
+
 
 <html>  
     <head>  
@@ -17,9 +19,35 @@ include ('database_connection.php');
 			body{
 				background: linear-gradient(#f0d4d6,#e49a9d,#c84d52,#b61a27);
 				font-family: 'Poppins';
+				
+			}
+			
+			.navbar ul{
+				list-style:none;
+				background: linear-gradient(#c84d52,#8b2d2e);
+				padding: 0;
+				margin: 0;
+				text-align: right;
+			}
+			.navbar li{
+				display: inline-block;
+			}
+			.navbar a{
+				text-decoration: none;
+				color: #fff;
+				display: block;
+				padding: 20px;
+				font-size: 15px;
+				text-transform: uppercase;
+				font-weight: bold;
+				text-align: center;
+			}
+			.navbar a:hover{
+				background: #c84d52;
 			}
 			h1{
 				font-size: 40px;
+				margin-top: -10px;
 				font-weight: bold;
 			}
 			h2{
@@ -57,6 +85,12 @@ include ('database_connection.php');
 				margin-left: 60px;
 			}
 		</style>
+		<div class = "navbar">
+			<div class = "logout">
+			<ul>
+				<li><a href="logout.php">Log out</a></li>
+			</ul>
+		</div>	
         <div class="container">  
             <br />  
             <br />
@@ -134,13 +168,13 @@ $(document).ready(function(){
 					$('#poll_form')[0].reset();
 					$('#poll_button').attr('disabled', false);
 					fetch_poll_data();
-					alert("Poll Submitted Successfully");
+					alert("YOUR VOTE IS SUBMITTED SUCCESSFULLY");
 				}
 			});
 		}
 		else
 		{
-			alert("Please Select Option");
+			alert("Please select Candidate.");
 		}
 	});
 	
