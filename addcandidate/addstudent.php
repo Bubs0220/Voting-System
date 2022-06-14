@@ -34,12 +34,12 @@
 					th{
 						color: black;
 						font-family: 'Poppins';
+						text-align: center;
 					}
 				</style>
 				<th>Name</th>
 				<th>Position</th>
 				<th>Course</th>
-				<th>Image</th>
 				<th>Action</th>
 			</thead>
 			<tbody>
@@ -53,7 +53,7 @@
 						<td><?php echo ucwords($row['name']); ?></td>
 						<td><?php echo ucwords($row['position']); ?></td>
 						<td><?php echo $row['course']; ?></td>
-						<td><?php echo $row['image']; ?></td>
+						
 
 						<td>
 							<a href="#edit<?php echo $row['userid']; ?>" data-toggle="modal" class="btn btn-warning"><span class="glyphicon glyphicon-edit"></span> Edit</a> &nbsp;
