@@ -33,7 +33,7 @@
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                     <center><h4 class="modal-title" id="myModalLabel">Edit</h4></center>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body" style="height: 200px">
 				<?php
 					$edit=mysqli_query($conn,"select * from candidates where userid='".$row['userid']."'");
 					$erow=mysqli_fetch_array($edit);
@@ -65,6 +65,10 @@
 						<div class="col-lg-10">
 							<input type="text" name="course" class="form-control" value="<?php echo $erow['course']; ?>">
 						</div>
+					</div>
+					</div>
+					<div class="col-lg-10">
+					<label class="control-label" style="position:relative; top:7px; right:-1px">Image:</label><input type="file" class="form-control" name="image" style="margin-top: -20px; position: relative; left: 94px">
 					</div>
                 </div> 
 				</div>

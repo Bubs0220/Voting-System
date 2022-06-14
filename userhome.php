@@ -17,6 +17,7 @@
 		<link rel="stylesheet" href="user_style.css">
 	</head>
 	<body>
+		
 		<style>
 			.btn-primary{
 				background-color: #b61a27;
@@ -37,29 +38,29 @@
 	<div style="height:70px;"></div>
 	<div class="well" style="border-color:#543438; margin:auto; padding:auto; width:80%; background-color: #543438; box-shadow: 5px 10px 18px black;">
 	<span style="font-size:20px; color:white; margin: 10px;"><center><strong>President</strong></center></span>	
-		<span class="pull-left"><a href="#vote" data-toggle="modal" class="btn btn-primary"><span class="glyphicon glyphicon-plus"></span>Vote</a></span>
-		<div style="height:50px;"></div>
+		<span class="pull-left"><a href="#vote" data-toggle="modal" class="btn btn-primary" style="position: relative; left: 80%"><span class="glyphicon glyphicon-plus"></span>Vote</a></span>
+		<div style="height:100px;"></div>
 		</div>
 		<div class="container">
 	<div style="height:70px;"></div>
 	<div class="well" style="border-color:#543438; margin:auto; padding:auto; width:80%; background-color: #543438; box-shadow: 5px 10px 18px black;">
 	<span style="font-size:20px; color:white; margin: 10px;"><center><strong>Vice President</strong></center></span>	
-		<span class="pull-left"><a href="#vote" data-toggle="modal" class="btn btn-primary"><span class="glyphicon glyphicon-plus"></span>Vote</a></span>
-		<div style="height:50px;"></div>
+		<span class="pull-left"><a href="#vote" data-toggle="modal" class="btn btn-primary" style="position: relative; left: 80%"><span class="glyphicon glyphicon-plus"></span>Vote</a></span>
+		<div style="height:100px;"></div>
 		</div>
 		<div class="container">
 	<div style="height:70px;"></div>
 	<div class="well" style="border-color:#543438; margin:auto; margin-bottom: 20px; padding:auto; width:80%; background-color: #543438; box-shadow: 5px 10px 18px black;">
 	<span style="font-size:20px; color:white; margin: 10px;"><center><strong>Secretary</strong></center></span>	
-		<span class="pull-left"><a href="#vote" data-toggle="modal" class="btn btn-primary"><span class="glyphicon glyphicon-plus"></span>Vote</a></span>
-		<div style="height:50px;"></div>
+		<span class="pull-left"><a href="#vote" data-toggle="modal" class="btn btn-primary"style="position: relative; left: 80%"><span class="glyphicon glyphicon-plus"></span>Vote</a></span>
+		<div style="height:100px;"></div>
 		</div>
 		<div class="container">
 	<div style="height:70px;"></div>
 	<div class="well" style="border-color:#543438; margin:auto; margin-bottom: 20px; padding:auto; width:80%; background-color: #543438; box-shadow: 5px 10px 18px black;">
 	<span style="font-size:20px; color:white; margin: 10px;"><center><strong>Treasurer</strong></center></span>	
-		<span class="pull-left"><a href="#vote" data-toggle="modal" class="btn btn-primary"><span class="glyphicon glyphicon-plus"></span>Vote</a></span>
-		<div style="height:50px;"></div>
+		<span class="pull-left"><a href="#vote" data-toggle="modal" class="btn btn-primary"style="position: relative; left: 80%"><span class="glyphicon glyphicon-plus"></span>Vote</a></span>
+		<div style="height:100px;"></div>
 		</div>
 	</body>
 </html>

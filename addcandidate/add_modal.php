@@ -35,7 +35,13 @@
 							<input type="text" class="form-control" name="course">
 						</div>
 					</div>
+					<div class="col-lg-10">
+					<label class="control-label" style="position:relative; top:7px; right:13px">Image:</label><input type="file" class="form-control" name="image" style="margin-top: -20px; position: relative; left: 80px">
+					
+					
+</div>
                 </div> 
+				
 				</div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
