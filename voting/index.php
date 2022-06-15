@@ -58,6 +58,7 @@ include ('database_connection.php');
 				font-size: 15px;
 				background: #8b2d2e;
 				border-color: white;
+				margin-left: 94%;
 			}
 			.btn:hover{
 				background: #c84d52;
@@ -86,8 +87,10 @@ include ('database_connection.php');
 			}
 		</style>
 		<div class = "navbar">
+			<div class = "livepoll">
 			<div class = "logout">
 			<ul>
+				<li><a href="result.php">Live Poll Result </a></li>
 				<li><a href="logout.php">Log out</a></li>
 			</ul>
 		</div>	
@@ -101,7 +104,7 @@ include ('database_connection.php');
 					<form method="post" id="poll_form">
 						<br />
 						<?php for($i=0; $i < $x; $i++) { ?>
-							<div class="radio" style="background:#8b2d2e; padding-bottom: 20px; border-radius: 3px">
+							<div class="radio" style="background:#8b2d2e; padding-bottom: 20px; border-radius: 3px; margin-left: 50%; width: 100%; text-align: center">
 								<label><h4><input type="radio" name="poll_option" class="poll_option" value="<?php echo $names[$i]?>" /> <?php echo $names[$i]?></h4></label>
 								<h5><?php echo $positions[$i] ?></h5>
 								<h6><?php echo $courses[$i] ?></h6>
@@ -112,20 +115,7 @@ include ('database_connection.php');
 					</form>
 					<br />
 				</div>
-				<div class="col-md-6">
-					<br />
-					<br />
-					<br />
-					<h2>Live Poll Result</h2><br />
-					<div id="poll_result" style="background:  #543438; box-shadow: 5px 10px 18px black; padding: 10px 10px 10px 10px; border-radius: 5px"></div>
-				</div>
-			</div>
-			
-			
-			<br />
-			<br />
-			<br />
-		</div>
+				
     </body>  
 </html>  
 <script>  
