@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
 				<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
-		
+		<button onclick="history.back()">Back to Home Page </button>
     </head>  
     <body>  
 		<style>
@@ -15,12 +15,32 @@
 				background: linear-gradient(#f0d4d6,#e49a9d,#c84d52,#b61a27);
 				font-family: 'Poppins';
             }
+            button{
+                color: white;
+                background: #8b2d2e;
+				border-color: white;
+                margin-left: 30px;
+                padding: 10px 10px 10px 10px;
+                border-width: 1px;
+                border-style: solid;
+                position: relative;
+                float: left;
+                margin-top: 30px;
+                border-radius: 5px;
+               
+                
+            }
+            button:hover{
+                background: #c84d52;
+                border-color: white;
+            }
             h2{
                 font-size: 40px;
                 text-align: center;
-                margin-left: 80%;
+                margin-left: 57%;
                 white-space: nowrap;
                 font-weight: bold;
+                color: #543438;
 
             }
             label{
@@ -36,7 +56,7 @@
 					<br />
 					<br />
 					<h2>Live Poll Result</h2><br />
-					<div id="poll_result" style="background:  #543438; box-shadow: 5px 10px 18px black; padding: 10px 10px 10px 10px; border-radius: 5px; margin-left: 50%; width: 100%"></div>
+					<div id="poll_result" style="background:  #543438; box-shadow: 5px 10px 18px black; padding: 10px 10px 10px 10px; border-radius: 5px; margin-left: 29%; width: 100%"></div>
 				</div>
 			</div>
 			

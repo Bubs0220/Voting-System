@@ -49,6 +49,7 @@ include ('database_connection.php');
 				font-size: 40px;
 				margin-top: -10px;
 				font-weight: bold;
+				color: #543438;
 			}
 			h2{
 				margin-top: -25px;
