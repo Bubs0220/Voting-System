@@ -31,6 +31,7 @@
                     <li class="nav-item"></li>
                     <li class="nav-item"></li>
                     <li class="nav-item"><a class="nav-link" href="#team" style="font-weight: bold;">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about" style="font-weight: bold;">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact"style="font-weight: bold;">Contact</a></li>
                 </ul>
             </div>
@@ -88,6 +89,7 @@
         <div style="text-align:center;">
             <h2 class="divider-style"><span>DEVELOPERS</span></h2>
         </div>
+
     </section>
     <section class="bg" id="team" style="background: linear-gradient(#c84d52,#e49a9d,#b61a27,#543438); padding-bottom: 0px;">
         
@@ -178,6 +180,30 @@
                     </div>
                 </div>
             </div>
+            </section>
+    <section class="bg" id="about" style="background: #543438; padding-top: 90px;">
+    <div class="container1" style="height: 500px">
+    <h1 class="text-uppercase section-heading">About</h1>
+    <p> Computerized voting is frequently viewed as a technique for improving election efficiency and credibility in its operation. E-voting technologies, when properly implemented, may strengthen ballot security, speed up results processing, and make voting more convenient. The researchers come up with the idea of creating a computerized voting system to make it possible for the TUP Manila Student Government Elections.</p>
+    <p>The purpose of this project is to have a convenient election, an efficient voting interface, and accurate results where it lessens the time and errors. This computerized voting system makes it very simple and convenient for every student to vote in student government elections. It will also save time and money by eliminating the need to print, distribute, and count paper ballots by hand.</p>
+    <style>
+        h1{
+            text-align: center;
+            color: white;
+        }
+        p{
+            color: white;
+            font-size: 20px;
+            margin-top: 80px;
+            margin-right: 20px;
+            margin-left: 20px;
+            text-align: center;
+            font-family:'Helvetica', sans-serif;
+            font-style: justify;
+        
+        }
+    </style>
+    </section>
         </section>
     </section>
     <section id="contact" style="background: #543438; padding-top: 1px">
