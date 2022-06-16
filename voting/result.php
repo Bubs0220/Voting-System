@@ -52,6 +52,7 @@
             }
             </style>
             <div class="col-md-6">
+                
 					<br />
 					<br />
 					<br />

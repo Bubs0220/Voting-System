@@ -44,7 +44,9 @@
 		{
 			echo "username or password incorrect";
 		}
-
+		if(isset($_POST['button'])){
+			echo $_SERVER[HTTP_REFERER]; 
+		   }
 	}
 ?>
 
@@ -56,6 +58,11 @@
     <meta charset="utf-8">
     <title>Voting System</title>
     <link rel="stylesheet" href="login_style.css">
+	<form action ="home.php" method = "POST">
+<button type="submit" name="button">Back to Landing Page</button>
+
+</form>
+
   </head>
   <h2>TUP Manila Voting System</h2>
   <body>
@@ -67,10 +74,31 @@
 			  font-size: 20px;
 		  }
 		  h2{
+				font-size: 30px;
 			  text-align: center;
 			  padding-top: 75px;
 			  font-weight: bolder;
+			  color: #543438;
 		  }
+            button{
+                color: white;
+                background: #8b2d2e;
+				border-color: white;
+                margin-left: 30px;
+                padding: 10px 10px 10px 10px;
+                border-width: 1px;
+                border-style: solid;
+                position: relative;
+                float: left;
+                margin-top: 30px;
+                border-radius: 5px;
+               
+                
+            }
+            button:hover{
+                background: #c84d52;
+                border-color: white;
+			}
 	  </style>
       	<form action="#" method="POST">
 		

@@ -17,7 +17,7 @@
 		<div class = "navbar">
 			<ul>
 				<li><a href = "adminhome.php">Home</a></li>
-				<li><a href = "addstudent/addstudent.php">Voters</a></li>
+				<li><a href = "addstudent/addstudent.php">Voters</a></li> 
 				<li><a href = "addcandidate/addstudent.php">Candidates</a></li>
 				<li><a href="logout.php">Logout</a></li>
 			</ul>

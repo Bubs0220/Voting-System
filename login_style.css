@@ -14,12 +14,12 @@ body{
 }
 .center{
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 400px;
+  width: 410px;
   background: #543438;
-  border-radius: 5px;
+  border-radius: 3px;
   box-shadow: 5px 10px 18px black;
 }
 .center h1{
@@ -88,7 +88,7 @@ input[type="submit"]{
   height: 40px;
   border: 1px solid;
   background: #b61a27;
-  margin: 0 0 10px 85px;
+  margin: 40px 0 10px 85px;
   border-radius: 2px;
   font-size: 15px;
   color: #e9f4fb;
