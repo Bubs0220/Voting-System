@@ -56,7 +56,7 @@
 					<br />
 					<br />
 					<br />
-					<h2>Live Poll Result</h2><br />
+					<h2>Live Result</h2><br />
 					<div id="poll_result" style="background:  #543438; box-shadow: 5px 10px 18px black; padding: 10px 10px 10px 10px; border-radius: 5px; margin-left: 29%; width: 100%"></div>
 				</div>
 			</div>
