@@ -91,7 +91,7 @@ include ('database_connection.php');
 			<div class = "livepoll">
 			<div class = "logout">
 			<ul>
-				<li><a href="result.php">Live Poll Result </a></li>
+				<li><a href="result.php">Live Result </a></li>
 				<li><a href="http://localhost/Voting-System/login.php"">Log Out </a></li>
 			</ul>
 		</div>	
