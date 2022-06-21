@@ -1,5 +1,4 @@
 <?php
-	include ('database_connection1.php');
 	session_start();
 
 	if(!isset($_SESSION["username"]))
@@ -45,25 +44,7 @@
 				background: linear-gradient(#f0d4d6,#e49a9d,#c84d52,#b61a27);
 				font-family: 'Poppins';
             }
-            button{
-                color: white;
-                background: #8b2d2e;
-				border-color: white;
-                margin-left: 30px;
-                padding: 10px 10px 10px 10px;
-                border-width: 1px;
-                border-style: solid;
-                position: relative;
-                float: left;
-                margin-top: 30px;
-                border-radius: 5px;
-               
-                
-            }
-            button:hover{
-                background: #c84d52;
-                border-color: white;
-            }
+           
             h2{
                 font-size: 40px;
                 text-align: center;
@@ -113,41 +94,6 @@ $(document).ready(function(){
 			}
 		});
 	}
-	
-	$('#poll_form').on('submit', function(event){
-		event.preventDefault();
-		var poll_option = '';
-		$('.poll_option').each(function(){
-			if($(this).prop("checked"))
-			{
-				poll_option = $(this).val();
-			}
-		});
-		
-		if(poll_option != '')
-		{
-			$('#poll_button').attr('disabled', 'disabled');
-			var form_data = $(this).serialize();
-			$.ajax({
-				url:"poll.php",
-				method:"POST",
-				data:form_data,
-				success:function()
-				{
-					$('#poll_form')[0].reset();
-					$('#poll_button').attr('disabled', false);
-					fetch_poll_data();
-					alert("YOUR VOTE IS SUBMITTED SUCCESSFULLY");
-				}
-			});
-		}
-		else
-		{
-			alert("Please select Candidate.");
-		}
-	});
-	
-
 });  
 </script>
 
