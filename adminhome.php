@@ -22,8 +22,8 @@
 			<ul>
 				<li><a href = "adminhome.php">Home</a></li>
 				<li><a href = "addstudent/addstudent.php">Voters</a></li> 
-				<li><a href = "addcandidate/addstudent.php">Candidates</a></li>
-				<li><a href="logout.php">Logout</a></li>
+				<li><a href = "addcandidate/addstudent.php" style= "margin-right: 30px">Candidates</a></li>
+				<li><a href="logout.php" style= "margin-right: 10px">Logout</a></li>
 			</ul>
 		</div>	
 		<div class = "printer">
@@ -48,7 +48,7 @@
             h2{
                 font-size: 40px;
                 text-align: center;
-                margin-left: 57%;
+                margin-left: 88%;
                 white-space: nowrap;
                 font-weight: bold;
                 color: #543438;
@@ -60,15 +60,15 @@
             }
             .progress{
                 margin-left: 60px;
-            }
+			}
 			</style>
-			            <div class="col-md-6">
+			<div class="col-md-6">
                 
 				<br />
 				<br />
 				<br />
 				<h2>Live Result</h2><br />
-				<div id="poll_result" style="background:  #543438; box-shadow: 5px 10px 18px black; padding: 10px 10px 10px 10px; border-radius: 5px; margin-left: 29%; width: 100%"></div>
+				<div id="poll_result" style="background:  #543438; box-shadow: 5px 10px 18px black; padding: 10px 10px 10px 10px; border-radius: 5px; margin-left: 50%; width: 100%"></div>
 			</div>
 		</div>
 		
